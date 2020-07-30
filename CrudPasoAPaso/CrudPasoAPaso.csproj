@@ -70,7 +70,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AgregarProducto.aspx" />
     <Content Include="css\bootstrap-grid.css" />
     <Content Include="css\bootstrap-grid.min.css" />
     <Content Include="css\bootstrap-reboot.css" />
@@ -78,8 +77,6 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="css\Login.css" />
-    <Content Include="EditarProducto.aspx" />
-    <Content Include="EliminarProducto.aspx" />
     <Content Include="EstilosCss\EstiloInicio.css" />
     <Content Include="EstilosCss\EstilosStorage.css" />
     <Content Include="EstilosCss\Login.css" />
@@ -100,30 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Agregar.cs" />
-    <Compile Include="AgregarProducto.aspx.cs">
-      <DependentUpon>AgregarProducto.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AgregarProducto.aspx.designer.cs">
-      <DependentUpon>AgregarProducto.aspx</DependentUpon>
-    </Compile>
     <Compile Include="conexiones.cs" />
     <Compile Include="datos.cs" />
     <Compile Include="datos1.cs" />
-    <Compile Include="EditarProducto.aspx.cs">
-      <DependentUpon>EditarProducto.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EditarProducto.aspx.designer.cs">
-      <DependentUpon>EditarProducto.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="EliminarProducto.aspx.cs">
-      <DependentUpon>EliminarProducto.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="EliminarProducto.aspx.designer.cs">
-      <DependentUpon>EliminarProducto.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
