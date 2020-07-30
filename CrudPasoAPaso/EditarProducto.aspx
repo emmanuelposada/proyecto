@@ -54,10 +54,9 @@
             }
             // other key
             return false
-
         }
-
     </script>
+
 
     <form runat="server">
 
@@ -96,10 +95,11 @@
                                 </div>
                                 <div class="form-group">
                                     <asp:TextBox ID="txtprecio" runat="server" placeholder="Precio..." type="text" class="form-control" onpaste="return false" 
-                                        onkeypress="return NumCheck(event, this)" />
+                                        onkeypress="return NumCheck(event, this)" minlength="4" MaxLength="10" />
                                 </div>
                                 <div class="form-group">
-                                    <asp:TextBox ID="txtcantidad" runat="server" placeholder="Cantidad..." type="text" class="form-control" minlength="4" MaxLength="10" />
+                                    <asp:TextBox ID="txtcantidad" runat="server" placeholder="Cantidad..." type="text" class="form-control" minlength="3" MaxLength="5" 
+                                    onkeypress="return numeros(event, this)"  />
                                 </div>
 
                                 <asp:Button runat="server" Text="Seleccionar" CssClass="mybtn" OnClick="Unnamed1_Click" Width="109px"></asp:Button>
